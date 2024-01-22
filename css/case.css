@@ -1,0 +1,54 @@
+.top_banner {
+  background-image: url(../image/case_banner.webp);
+}
+
+.case_block {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.case_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 30px 50px;
+}
+
+.case_content_blue {
+  background: #136a9e;
+}
+.case_content_white {
+  background: #fff;
+}
+
+.case_title {
+  text-align: center;
+  font-size: 18px;
+}
+.case_wh_title {
+  color: #e8e9e9;
+}
+
+.case_bl_title {
+  color: #034166;
+}
+
+.case_img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .case_img {
+    grid-template-columns: 1fr 1fr;
+
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .case_img {
+    grid-template-columns: 1fr;
+  }
+}
