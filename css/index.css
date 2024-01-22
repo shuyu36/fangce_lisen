@@ -1,0 +1,85 @@
+/*-------- 搬家流程 --------*/
+
+.process_block {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  gap: 5%;
+}
+.process_bgc {
+  background: #136a9e;
+  color: #e8e9e9;
+}
+
+.process_title {
+  font-weight: 700;
+  font-size: 20px;
+}
+.process_img {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.process_img ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.process_img li {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* 案例輪播 */
+:root {
+  --swiper-theme-color: #136a9e;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+/* .swiper-wrapper {
+  gap: 20px;
+} */
+
+.block_title a {
+  float: right;
+  color: #034166;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .process_block {
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+  }
+  /*-------- 搬家流程 --------*/
+  .process_img {
+    gap: 50px;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .banner_img1 img {
+    content: url(../image/index_banner_mobile1.webp);
+  }
+  .banner_img2 img {
+    content: url(../image/index_banner_mobile2.webp);
+  }
+  .banner_img3 img {
+    content: url(../image/index_banner_mobile3.webp);
+  }
+  /*-------- 搬家流程 --------*/
+  .process_img {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+}

@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <!-- 字體 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <title>立森搬家</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img
+              src="./image/LOGO.webp"
+              alt="立森搬家LOGO"
+              width="100%"
+              height="auto"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >首頁</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./case.html">搬家案例</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./process.html">搬家流程</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./notice.html">搬家須知</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">關於立森</a>
+              </li>
+              <li class="nav-item nav_phone" style="border-bottom: none">
+                <a
+                  href="tel:0926714189"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  立即諮詢</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!---------------------------- top_banner幻燈片 ---------------------------->
+    <article>
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item banner_img1 active">
+            <img
+              src="./image/index_banner_desktop1.webp"
+              class="d-block w-100"
+              alt="全方位服務"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="carousel-item banner_img2">
+            <img
+              src="./image/index_banner_desktop2.webp"
+              class="d-block w-100"
+              alt="搬家唯一首選"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="carousel-item banner_img3">
+            <img
+              src="./image/index_banner_desktop3.webp"
+              class="d-block w-100"
+              alt="立森精緻搬家"
+              width="100%"
+              height="auto"
+            />
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!---------------------------- 搬家須知 ---------------------------->
+    <section class="notice_block">
+      <div class="block_title">
+        <p>立森搬家須知</p>
+      </div>
+
+      <!--- 裝箱打包 --->
+      <div class="notice_content notice1st">
+        <div class="notice_all_text">
+          <div class="notice_title">
+            <span> 裝箱打包 </span>
+          </div>
+          <div class="notice_text">
+            1、裝入紙箱不宜過重、太滿，會造成不易搬運及底部破裂。<br />
+            2、衣櫃、斗櫃、書桌、酒櫃、抽屜中的物品需清空，以免搬運過程中掉落。<br />
+            3、易碎物品需做好隔離防護及標示，並告知搬運人員。<br />
+            4、重要物品請自行保管。
+          </div>
+        </div>
+        <div>
+          <img
+            src="./image/notice_packing.webp"
+            alt="裝箱打包"
+            width="100%"
+            height="auto"
+          />
+        </div>
+      </div>
+      <!--- 搬運 --->
+      <div class="notice_content notice2nd">
+        <div>
+          <img
+            src="./image/notice_carry.webp"
+            alt="
+            搬運"
+            width="100%"
+            height="auto"
+          />
+        </div>
+        <div class="notice_all_text">
+          <div class="notice_title">
+            <span> 搬運 </span>
+          </div>
+          <div class="notice_text">
+            1、搬運前，雙方再一次確認搬運物品及費用是否一致。<br />
+            2、空車確認，搬運前及搬運後皆應檢視是否空車。<br />
+            3、物品定位、抵達新居時須告知服務人員如何區分定位。
+          </div>
+        </div>
+      </div>
+      <!--- 搬運 --->
+      <div class="notice_content notice3rd">
+        <div class="notice_all_text">
+          <div class="notice_title">
+            <span> 點收 </span>
+          </div>
+          <div class="notice_text">
+            1、協助大型家具定位組裝。<br />
+            2、檢查家中物品是否有遺落以便查找。<br />
+            3、家俱、家電如有破損、刮傷，馬上和現場工作人員進行確認，以便進行理賠處理。
+          </div>
+        </div>
+        <div>
+          <img
+            src="./image/notice_position.webp"
+            alt="
+            點收"
+            width="100%"
+            height="auto"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------- 搬家流程 ---------------------------->
+    <div class="process_bgc">
+      <section class="process_block">
+        <div class="process_title">
+          <p>立森搬家流程<br />計劃、整理、定位，輕鬆搬遷新生活。</p>
+        </div>
+        <div class="process_img process_1st">
+          <ul>
+            <li>
+              <div>
+                <img
+                  src="./image/process_valuation.svg"
+                  alt="估價"
+                  width="100%"
+                  height="auto"
+                />
+              </div>
+              <p>01、來電估價</p>
+            </li>
+            <li>
+              <div>
+                <img
+                  src="./image/process_box.svg"
+                  alt="資材提供"
+                  width="100%"
+                  height="auto"
+                />
+              </div>
+              <p>02、資材提供</p>
+            </li>
+            <li>
+              <div>
+                <img
+                  src="./image/process_protect.svg"
+                  alt="現場搬遷"
+                  width="100%"
+                  height="auto"
+                />
+              </div>
+              <p>03、現場搬遷</p>
+            </li>
+            <li>
+              <div>
+                <img
+                  src="./image/process_carry.svg"
+                  alt="物品保護"
+                  width="100%"
+                  height="auto"
+                />
+              </div>
+              <p>04、物品保護</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <div>
+                <img
+                  src="./image/process_position.svg"
+                  alt="現場定位"
+                  width="100%"
+                  height="auto"
+                />
+              </div>
+              <p>05、現場定位</p>
+            </li>
+            <li>
+              <div>
+                <img
+                  src="./image/process_check.svg"
+                  alt="完工確認"
+                  width="100%"
+                  height="auto"
+                />
+              </div>
+              <p>06、完工確認</p>
+            </li>
+            <li>
+              <div>
+                <img
+                  src="./image/process_recycle.svg"
+                  alt="資材回收"
+                  width="100%"
+                  height="auto"
+                />
+              </div>
+              <p>07、資材回收</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!---------------------------- 搬家案例輪播 ---------------------------->
+    <section>
+      <div class="block_title">
+        <p>立森搬家案例<br />信賴選擇，搬家輕鬆有保障</p>
+      </div>
+      <!-- swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="./image/case_1st_1.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_1st_2.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_1st_3.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_1st_4.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_2nd_1.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_2nd_2.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_2nd_3.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_2nd_4.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_3rd_1.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_3rd_2.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_3rd_3.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_3rd_4.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_4th_1.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_4th_2.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_4th_3.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_4th_4.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_5th_1.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_5th_2.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_5th_3.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./image/case_5th_4.webp"
+              alt="案例圖片"
+              width="100%"
+              height="auto"
+            />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+      <a
+        href=""
+        style="
+          float: right;
+          color: #034166;
+          font-size: 20px;
+          font-weight: 700;
+          margin-top: 20px;
+        "
+      >
+        <span> MORE+ </span>
+      </a>
+    </section>
+
+    <!---------------------------- 關於立森 ---------------------------->
+    <section class="about_block" style="border-top: #747474 solid 2px;margin-top: 80px;">
+      <div class="about_text">
+        <div class="about_text_1st">
+          <p>關於立森</p>
+          <p>
+            立森精緻搬家公司為保護每一位客戶<br />的權益，誠實合理的收費、責任制度<br />的運送以及親切熱誠的服務。
+          </p>
+          <br />
+        </div>
+        <div class="about_text_2nd">
+          服務前對於大小細項物品絕對用心說明包裝與運送，為杜絕惡質搬家歪風，以保障客戶權益，保證絕不作地起價！您的滿意是立森精緻搬家公司的目標！<br /><br />
+          ．精緻住家搬家、公司搬遷 <br />
+          ．廢棄物處理 <br />
+          ．北中南回頭車 ．家具組裝<br />
+          ．機車托運 <br />
+          ．百貨、展場進撤櫃<br />
+          您不想動手操勞的，通通交給我免費估價～歡迎來電諮詢<br />
+          平時都在運送新的家具 所以我們會把客戶的家具當作新的在搬運唷！
+          歡迎加LINE 詢問唷！
+          <div></div>
+        </div>
+      </div>
+      <div>
+        <img
+          src="./image/about_carte.webp"
+          alt="立森搬家名片 張先生 電話：0926-714-189"
+          width="100%"
+          height="auto"
+        />
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer_block">
+        <div>
+          <img
+            src="./image/LOGO_footer.webp"
+            alt="立森搬家LOGO"
+            width="160px"
+            height="160px"
+          />
+        </div>
+        <div class="footer_text">
+          <p style="color: #ff620a; font-size: 20px; font-weight: 700">
+            COMPANY INFORMATION
+          </p>
+          <a
+            href="https://maps.app.goo.gl/bjwmYSKhue48YRt78"
+            target="_blank"
+            style="color: #e8e9e9; font-size: 16px; font-weight: 400"
+          >
+            地址：324桃園市平鎮區正義路21巷40號 </a
+          ><br />
+          <a
+            href="tel:0926714189"
+            target="_blank"
+            style="color: #e8e9e9; font-size: 16px; font-weight: 400"
+            >電話：0926714189</a
+          ><br />
+          <a
+            href="https://www.facebook.com/profile.php?id=61551061835171&mibextid=LQQJ4d"
+            target="_blank"
+            style="color: #e8e9e9; font-size: 16px; font-weight: 400"
+            >FACE BOOK：立森 精緻搬家 不專業運輸</a
+          ><br />
+          <a
+            href="https://line.me/ti/p/~j11260901"
+            target="_blank"
+            style="color: #e8e9e9; font-size: 16px; font-weight: 400"
+            >LINE ID：j11260901</a
+          >
+        </div>
+      </div>
+      <p
+        style="
+          color: #fff;
+          font-size: 10px;
+          font-weight: 400;
+          letter-spacing: 0.5px;
+          text-align: center;
+        "
+      >
+        Copyright© 2024 立森精緻搬家 All Rights Reserved.
+      </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+  </body>
+</html>
