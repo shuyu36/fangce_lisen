@@ -99,6 +99,18 @@ section {
   padding: 0.5rem 1rem;
   border-radius: 10px;
 }
+.nav_line a {
+  background-color: #00BB00;
+  line-height: 32px;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.nav_line,.nav_phone{
+  
+  width: auto;
+}
 .navbar-nav {
   gap: 15px;
   align-items: center;
@@ -199,6 +211,10 @@ footer {
   /* header */
   .container-fluid {
     padding: 0 15px;
+  }
+  .nav_line,.nav_phone{
+  
+    width: auto;
   }
 }
 @media (max-width: 767px) {
